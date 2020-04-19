@@ -33,8 +33,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Absurd`,
-        short_name: `absurd`,
+        name: `ReImagine India`,
+        short_name: `ReImagine India`,
         start_url: `/`,
         background_color: `#ffc76e`,
         theme_color: `#ffc76e`,
