@@ -52,7 +52,7 @@ const Footer = () => (
         <FooterWrapper>
           <StyledContainer>
             <Copyright>
-              <h2>Reimagine India</h2>
+              <h2>ReImagine India</h2>
               <span>
                 A joint collective towards educational resillience.
                 {` `}

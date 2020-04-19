@@ -83,7 +83,7 @@ const About = () => (
             <div>
               <h2>How it works</h2>
               <p>
-                Reimagine India hackathon is an online-hackathon designed to bring children as active participants in rebuilding 
+                ReImagine India hackathon is an online-hackathon designed to bring children as active participants in rebuilding 
                 stronger, better India post-pandemic. </p> < br/> < br/> < br/>
                 <p><strong>The best solutions</strong> that emerge from this hackathon would be given
                 mentorship support for implementation with our partners.   </p>     
@@ -111,6 +111,7 @@ const About = () => (
           </Grid>
          
         </Container>
+        
       </Section>
     )}
   />

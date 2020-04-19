@@ -34,7 +34,7 @@ const Header = () => (
                 3-10th May, 2020
               </h4>  
               <h1>
-                Reimagine India
+                ReImagine India
                 
               </h1>
               <br />
