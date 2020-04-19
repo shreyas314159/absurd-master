@@ -48,12 +48,17 @@ const About = () => (
         <Container>
           <Grid>
             <div>
-              <h2>Speed past the competition</h2>
+              <h2>Educational overhaul</h2>
               <p>
-                Gatsby.js builds the fastest possible website. Instead of
-                waiting to generate pages when requested, pre-build pages and
-                lift them into a global cloud of servers — ready to be delivered
-                instantly to your users wherever they are.
+                It's hard to ignore the elephant in the room 
+                (COVID-19) which has left us with a lot more 
+                challenges than ever before, particularly in the
+                education sector. We have teachers grappling with 
+                new ways to adapt and implement their curriculum in a 
+                completely digital environment, while students are getting
+                adjusted to the study-from-home lifestyle with everything being
+                done in front of screens. The need to confront and innovate is now.
+              
               </p>
             </div>
             <Art>
@@ -65,29 +70,46 @@ const About = () => (
               <Img fluid={data.art_learn.childImageSharp.fluid} />
             </Art>
             <div>
-              <h2>Nothing new to learn here</h2>
+              <h2>Why children?</h2>
               <p>
-                Enjoy the power of the latest web technologies – React.js ,
-                Webpack , modern JavaScript and CSS and more — all set up and
-                waiting for you to start building.
+              From Greta Thunberg to Malala, we have seen young children's ability to transform the world. As more teachers and pedagogy experts gather to have more fruitful dialogues regarding 
+                education, it becomes even more important to get promising solutions from the other side 
+                of the spectrum, the children themselves.  Through this hackathon, we are confident
+                that simple solutions would emerge from the complex, wicked challenges which has currently engulfed the Indian education sector through the lens of children.
               </p>
             </div>
           </Grid>
           <Grid>
             <div>
-              <h2>Grow and build your ideas</h2>
+              <h2>How it works</h2>
               <p>
-                Waste no more time on tooling and performance. Focus on the the
-                site you want to build and nothing more.
-                <br />
-                <br />
-                Gatsby is fast in every way that matters.
-              </p>
+                Reimagine India hackathon is an online-hackathon designed to bring children as active participants in rebuilding 
+                stronger, better India post-pandemic. </p> < br/> < br/> < br/>
+                <p><strong>The best solutions</strong> that emerge from this hackathon would be given
+                mentorship support for implementation with our partners.   </p>     
+              
+
+              
             </div>
             <Art>
               <Img fluid={data.art_ideas.childImageSharp.fluid} />
             </Art>
           </Grid>
+          <Grid inverse>
+            <Art>
+              <Img fluid={data.art_learn.childImageSharp.fluid} />
+            </Art>
+            <div>
+              <h2>Agenda</h2>
+              <p>
+              From Greta Thunberg to Malala, we have seen young children's ability to transform the world. As more teachers and pedagogy experts gather to have more fruitful dialogues regarding 
+                education, it becomes even more important to get promising solutions from the other side 
+                of the spectrum, the children themselves.  Through this hackathon, we are confident
+                that simple solutions would emerge from the complex, wicked challenges which has currently engulfed the Indian education sector through the lens of children.
+              </p>
+            </div>
+          </Grid>
+         
         </Container>
       </Section>
     )}

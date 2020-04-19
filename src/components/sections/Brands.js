@@ -60,7 +60,7 @@ const UsedBy = () => (
       <Section id="brands" accent>
         <StyledContainer>
           <div>
-            <h1>Used by biggest in tech</h1>
+            <h1>Supporting organisations</h1>
             <LogoGrid>
               {LOGOS.map(({ logo, link }) => (
                 <ExternalLink key={link} href={link}>
@@ -73,10 +73,16 @@ const UsedBy = () => (
             <Img fluid={data.art_story.childImageSharp.fluid} />
           </Art>
         </StyledContainer>
-      </Section>
+        
+        < br/>
+        
+        
+      </Section>      
     )}
   />
 );
+
+
 
 const LogoGrid = styled.div`
   display: grid;

@@ -30,19 +30,30 @@ const Header = () => (
               <Img fluid={data.art_build.childImageSharp.fluid} />
             </Art>
             <Text>
+            <h4>
+                3-10th May, 2020
+              </h4>  
               <h1>
-                Fast in
-                <br />
-                every way
-                <br />
-                that matters
+                Reimagine India
+                
               </h1>
               <br />
+               
+              <br /> 
+              <p>
+                An exclusive children-led  hackathon<br />
+                 to co-solve Indian educational crisis < br /> 
+              </p>    
+
+               
+              <br />
+              
               <p>
                 <StyledExternalLink href="https://github.com/ajayns/gatsby-absurd">
-                  Check out source &nbsp;&#x2794;
+                  Register now &nbsp;&#x2794;
                 </StyledExternalLink>
               </p>
+              
             </Text>
           </Grid>
         </Container>
