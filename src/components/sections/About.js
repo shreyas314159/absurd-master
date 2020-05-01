@@ -140,6 +140,17 @@ const About = () => (
           }
         }
 
+        art_customers_pot: file(
+          sourceInstanceName: { eq: "art" }
+          name: { eq: "customers_pot" }
+        ) {
+          childImageSharp {
+            fluid(maxWidth: 760) {
+              ...GatsbyImageSharpFluid_withWebp_tracedSVG
+            }
+          }
+        }
+
 
         
 
@@ -204,7 +215,7 @@ const About = () => (
               
             </div>
             <Art>
-              <Img fluid={data.art_story.childImageSharp.fluid} />
+              <Img fluid={data.art_customers_pot.childImageSharp.fluid} />
             </Art>
             
           </Grid>

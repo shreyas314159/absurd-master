@@ -1,63 +1,122 @@
 import React from 'react';
+import styled from 'styled-components';
+import { StaticQuery, graphql } from 'gatsby';
+import Img from 'gatsby-image';
 
-import { Section, Container } from '@components/global';
-
-import FaqItem from '@common/FaqItem';
+import { Container } from '@components/global';
 import ExternalLink from '@common/ExternalLink';
 
+const Header = () => (
+  <StaticQuery
+    query={graphql`
+      query {
+        art_story: file(
+          sourceInstanceName: { eq: "art" }
+          name: { eq: "story" }
+        ) {
+          childImageSharp {
+            fluid(maxWidth: 1400) {
+              ...GatsbyImageSharpFluid_withWebp_tracedSVG
+            }
+          }
+        }
+      }
+    `}
+    render={data => (
+      <HeaderWrapper>
+        <Container>
+          <Grid>
+            <Art>
+              <Img fluid={data.art_story.childImageSharp.fluid} />
+            </Art>
+            <Text>
+            <h4>
+                10-17th May, 2020  (17:00 to 19:00)
+              </h4> 
+            
+              <h1>
+                Become an expert mentor
+                
+              </h1>
+              <br />
+               
+              <br /> 
+              <p>
+                An exclusive children-led  hackathon<br />
+                 to co-solve Indian educational crisis < br /> 
+              </p>    
 
-
-const FAQS = [
-  {
-    title: 'What is a hackathon?',
-    content: () => (
-      <>
-        Hackathon is an intense brainstorming marathon where people with different skills get together, exchange ideas, form teams around the best ideas and develop working prototypes over the course of 7 days. The brainstorming sessions are well structured, and the teams are helped throughout by world-class mentors.
-      </>
-    ),
-  },
-  {
-    title: 'When does the hackathon take place?',
-    content: () => (
-      <>
-        The hackathon will take place on 10-17 April. It is 5 to 7 pm everyday over a course of a week to collaborate and build a solution within the tracks. 
-      </>
-    ),
-  },
-  {
-    title: 'Are there any prerequisites for participation?',
-    content: () => (
-      <>
-        We’re looking for students from every corner of India. Anyone with a passion to drive educational resilience through their ideas is welcome.
-      </>
-    ),
-  },
-  {
-    title: 'How many can participate?',
-    content: () => (
-      <>
-        We have a limit of 60 students in total.
-      </>
-    ),
-  },
-  
-  
- 
-];
-
-const Faq = () => (
-  <Section id="faq">
-    <Container>
-      <h1 style={{ marginBottom: 40 }}>FAQ</h1>
-      <div>
-        {FAQS.map(({ title, content }) => (
-          <FaqItem title={title} key={title}>
-            {content()}
-          </FaqItem>
-        ))}
-      </div>
-    </Container>
-  </Section>
+               
+              <br />
+              
+              <p>
+                <StyledExternalLink href="https://bit.ly/ReImagineIndia">
+                  Register now as a mentor &nbsp;&#x2794;
+                </StyledExternalLink>
+              </p>
+              
+            </Text>
+          </Grid>
+        </Container>
+      </HeaderWrapper>
+    )}
+  />
 );
 
-export default Faq;
+const HeaderWrapper = styled.header`
+  background-color: ${props => props.theme.color.primary};
+  padding-top: 96px;
+
+  @media (max-width: ${props => props.theme.screen.md}) {
+    padding-top: 128px;
+  }
+`;
+
+const Art = styled.figure`
+  width: 100%;
+  margin: 0;
+
+  > div {
+    width: 120%;
+    margin-bottom: -4.5%;
+
+    @media (max-width: ${props => props.theme.screen.md}) {
+      width: 100%;
+    }
+  }
+`;
+
+const Grid = styled.div`
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  grid-gap: 64px;
+
+  @media (max-width: ${props => props.theme.screen.md}) {
+    grid-template-columns: 1fr;
+    grid-gap: 80px;
+
+    > ${Art} {
+      order: 2;
+    }
+  }
+`;
+
+const Text = styled.div`
+  justify-self: center;
+
+  @media (max-width: ${props => props.theme.screen.md}) {
+    justify-self: start;
+  }
+`;
+
+const StyledExternalLink = styled(ExternalLink)`
+  color: inherit;
+  text-decoration: none;
+
+  &:hover {
+    color: ${props => props.theme.color.black.regular};
+  }
+`;
+
+export default Header;
