@@ -305,7 +305,7 @@ const About = () => (
               <Img fluid={data.art_day4.childImageSharp.fluid} />
             </Art>
             <div>
-              <h2>Day 4+</h2>
+              <h2>Day 4-5-6</h2>
               <h3><strong>Take action</strong></h3>
               
               <p>
