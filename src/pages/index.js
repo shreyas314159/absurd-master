@@ -11,11 +11,14 @@ import about1 from '@sections/about1';
 import Faq from '@sections/Faq';
 import Footer from '@sections/Footer';
 
+
+
 const IndexPage = () => (
   <Layout>
     <Navbar />
     <Header />
     <About />
+    
     <Team />
     <Faq />
     <Footer />

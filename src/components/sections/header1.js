@@ -6,7 +6,7 @@ import Img from 'gatsby-image';
 import { Container } from '@components/global';
 import ExternalLink from '@common/ExternalLink';
 
-const Header = () => (
+const header1 = () => (
   <StaticQuery
     query={graphql`
       query {
@@ -51,7 +51,7 @@ const Header = () => (
               
               <p>
                 <StyledExternalLink href="https://bit.ly/ReImagineIndia">
-                  Register now as a student &nbsp;&#x2794;
+                  Register now &nbsp;&#x2794;
                 </StyledExternalLink>
               </p>
               

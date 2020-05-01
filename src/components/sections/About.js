@@ -201,12 +201,7 @@ const About = () => (
           <Grid>
           <div>
               <h2>Agenda</h2>
-              <p>
-              From Greta Thunberg to Malala, we have seen young children's ability to transform the world. As more teachers and pedagogy experts gather to have more fruitful dialogues regarding 
-                education, it becomes even more important to get promising solutions from the other side 
-                of the spectrum, the children themselves.  Through this hackathon, we are confident
-                that simple solutions would emerge from the complex, wicked challenges which has currently engulfed the Indian education sector through the lens of children.
-              </p>
+              
             </div>
             <Art>
               <Img fluid={data.art_story.childImageSharp.fluid} />
@@ -336,7 +331,7 @@ const About = () => (
 
           <Grid>
           <div>
-              <h2>Mentorship support</h2> 
+              <h2>Session Mentors</h2> 
               <p>We are partnering with Chalkpiece who are supporting our hackathon with the expert mentors</p>             
             </div>
             
