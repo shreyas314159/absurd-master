@@ -42,8 +42,7 @@ const Header = () => (
                
               <br /> 
               <p>
-                An exclusive children-led  hackathon<br />
-                 to co-solve Indian educational crisis < br /> 
+              Join us in our combined collective towards  educational resilience! < br /> 
               </p>    
 
                

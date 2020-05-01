@@ -50,7 +50,7 @@ const Footer = () => (
               
               <span>
               <p>Join us in our combined collective towards  educational resilience! <br />
-              <a href="https://forms.gle/rrPMqqQzMzymroxdA">Register as an expert mentor here &nbsp;&#x2794;</a>  </p>
+                </p>
                 
                 {` `}
                 
