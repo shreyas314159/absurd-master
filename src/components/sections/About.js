@@ -58,7 +58,7 @@ const About = () => (
           name: { eq: "agenda" }
         ) {
           childImageSharp {
-            fluid(maxWidth: 760) {
+            fluid(maxWidth: 60) {
               ...GatsbyImageSharpFluid_withWebp_tracedSVG
             }
           }
@@ -136,7 +136,7 @@ const About = () => (
 
           <Grid>
             <div>
-              <h2>Agenda</h2>
+              <h2>Something else</h2>
               <p>
               From Greta Thunberg to Malala, we have seen young children's ability to transform the world. As more teachers and pedagogy experts gather to have more fruitful dialogues regarding 
                 education, it becomes even more important to get promising solutions from the other side 
