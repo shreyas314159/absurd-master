@@ -58,7 +58,7 @@ const About = () => (
           name: { eq: "agenda" }
         ) {
           childImageSharp {
-            fluid(maxWidth: 60) {
+            fluid(maxWidth: 960) {
               ...GatsbyImageSharpFluid_withWebp_tracedSVG
             }
           }
