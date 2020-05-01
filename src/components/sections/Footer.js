@@ -14,7 +14,7 @@ const SOCIAL = [
  
   {
     icon: InstagramIcon,
-    link: 'https://instagram.com/ajay_ns',
+    link: 'https://www.instagram.com/dhivelabs/',
   },
   
 ];
