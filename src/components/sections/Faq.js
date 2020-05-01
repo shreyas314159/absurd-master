@@ -30,9 +30,7 @@ const Header = () => (
               <Img fluid={data.art_story.childImageSharp.fluid} />
             </Art>
             <Text>
-            <h4>
-                10-17th May, 2020  (17:00 to 19:00)
-              </h4> 
+         
             
               <h1>
                 Become an expert mentor
@@ -42,7 +40,7 @@ const Header = () => (
                
               <br /> 
               <p>
-               Join us in our combined collective towards  educational resilience! < br /> 
+              Join as an expert mentor and provide the children with on-ground insights about the challenge and help them reflect on their solutions. < br /> 
               </p>    
 
                
