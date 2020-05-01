@@ -49,8 +49,7 @@ const Footer = () => (
               <h2>ReImagine India</h2>
               
               <span>
-              <p>Join us in our combined collective towards  educational resilience! <br />
-                </p>
+              
                 
                 {` `}
                 
