@@ -178,11 +178,16 @@ const About = () => (
                 It's hard to ignore the elephant in the room 
                 (COVID-19) which has left us with a lot more 
                 challenges than ever before, particularly in the
-                education sector. We have teachers grappling with 
+                education sector. </p>
+                < br/>
+                <p>We have teachers grappling with 
                 new ways to adapt and implement their curriculum in a 
                 completely digital environment, while students are getting
                 adjusted to the study-from-home lifestyle with everything being
-                done in front of screens. The need to confront and innovate is now.
+                done in front of screens. </p>
+                < br/>
+                
+                <p>The need to confront and innovate is now.
               
               </p>
             </div>
@@ -199,7 +204,9 @@ const About = () => (
               <p>
               From Greta Thunberg to Malala, we have seen young children's ability to transform the world. As more teachers and pedagogy experts gather to have more fruitful dialogues regarding 
                 education, it becomes even more important to get promising solutions from the other side 
-                of the spectrum, the children themselves.  Through this hackathon, we are confident
+                of the spectrum, the children themselves.  </p>
+                < br/>
+                <p> Through this hackathon, we are confident
                 that simple solutions would emerge from the complex, wicked challenges which has currently engulfed the Indian education sector through the lens of children.
               </p>
             </div>
