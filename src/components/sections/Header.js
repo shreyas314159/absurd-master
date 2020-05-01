@@ -50,7 +50,7 @@ const Header = () => (
               <br />
               
               <p>
-                <StyledExternalLink href="https://github.com/ajayns/gatsby-ReImagine">
+                <StyledExternalLink href="https://bit.ly/ReImagineIndia">
                   Register now &nbsp;&#x2794;
                 </StyledExternalLink>
               </p>

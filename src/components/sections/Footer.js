@@ -11,18 +11,12 @@ import InstagramIcon from '@static/icons/instagram.svg';
 import TwitterIcon from '@static/icons/twitter.svg';
 
 const SOCIAL = [
-  {
-    icon: GithubIcon,
-    link: 'https://github.com/ajayns/gatsby-ReImagine',
-  },
+ 
   {
     icon: InstagramIcon,
     link: 'https://instagram.com/ajay_ns',
   },
-  {
-    icon: TwitterIcon,
-    link: 'https://twitter.com/ajayns08',
-  },
+  
 ];
 
 const Footer = () => (
@@ -53,11 +47,16 @@ const Footer = () => (
           <StyledContainer>
             <Copyright>
               <h2>ReImagine India</h2>
+              
               <span>
-                A joint collective towards educational resillience.
+              <p>Join us in our combined collective towards  educational resilience! <br />
+              <a href="https://forms.gle/rrPMqqQzMzymroxdA">Register as an expert mentor here &nbsp;&#x2794;</a>  </p>
+                
                 {` `}
                 
               </span>
+              
+              
             </Copyright>
             <SocialIcons>
               {SOCIAL.map(({ icon, link }) => (

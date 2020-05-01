@@ -129,17 +129,6 @@ const About = () => (
           }
         }
 
-        art_chalkpiece: file(
-          sourceInstanceName: { eq: "art" }
-          name: { eq: "chalkpiece" }
-        ) {
-          childImageSharp {
-            fluid(maxWidth: 760) {
-              ...GatsbyImageSharpFluid_withWebp_tracedSVG
-            }
-          }
-        }
-
 
         
 
@@ -198,8 +187,11 @@ const About = () => (
               <Img fluid={data.art_ideas.childImageSharp.fluid} />
             </Art>
           </Grid>
-          <Grid>
-          <div>
+          <Grid inverse>
+            <Art>
+              <Img fluid={data.art_story.childImageSharp.fluid} />
+            </Art>
+            <div>
               <h2>Agenda</h2>
               <p>
               From Greta Thunberg to Malala, we have seen young children's ability to transform the world. As more teachers and pedagogy experts gather to have more fruitful dialogues regarding 
@@ -208,10 +200,6 @@ const About = () => (
                 that simple solutions would emerge from the complex, wicked challenges which has currently engulfed the Indian education sector through the lens of children.
               </p>
             </div>
-            <Art>
-              <Img fluid={data.art_story.childImageSharp.fluid} />
-            </Art>
-            
           </Grid>
 
           <Grid inverse>
@@ -230,120 +218,6 @@ const About = () => (
               
             </div>
            
-          </Grid>
-
-          <Grid inverse>
-          <Art>
-              <Img fluid={data.art_day1.childImageSharp.fluid} />
-            </Art>
-            <div>
-              <h2>Day 1</h2>
-              <h3><strong>Observe with empathy</strong></h3>
-                           
-              <p>
-                Talk to real people who are involved in the challenge you are trying to solve
-              </p>
-
-              
-            </div>
-            
-          </Grid>
-
-          <Grid inverse>
-          <Art>
-              <Img fluid={data.art_day2.childImageSharp.fluid} />
-            </Art>
-            <div>
-              <h2>Day 2</h2>
-              <h3><strong>Identify opportunities</strong></h3>
-              
-              <p>
-                Deep dive into the problem to understand the <i>real</i> reason behind the problem
-              </p>
-
-              
-            </div>
-           
-          </Grid>
-
-          <Grid inverse>
-          <Art>
-              <Img fluid={data.art_day3.childImageSharp.fluid} />
-            </Art>
-            <div>
-              <h2>Day 3</h2>
-              <h3><strong>Imagine and grow</strong></h3>
-              
-              <p>
-               Find solutions that are readily implementable and are bold in nature
-              </p>
-
-              
-            </div>
-           
-          </Grid>
-
-          <Grid inverse>
-          <Art>
-              <Img fluid={data.art_day4.childImageSharp.fluid} />
-            </Art>
-            <div>
-              <h2>Day 4+</h2>
-              <h3><strong>Take action</strong></h3>
-              
-              <p>
-               Build your prototype that explains your solution to the world along with a solid execution plan
-              </p>
-
-              
-            </div>
-           
-          </Grid>
-
-          <Grid inverse>
-          <Art>
-              <Img fluid={data.art_day7.childImageSharp.fluid} />
-            </Art>
-            <div>
-              <h2>Day 7</h2>
-              <h3><strong>Share your solution</strong></h3>
-              
-              <p>
-               Final pitch in front of various experts and stakeholders in the field of education
-              </p>
-
-              
-            </div>
-           
-          </Grid>
-
-        
-
-          
-
-
-          <Grid>
-          <div>
-              <h2>Media Partners</h2>
-              <p>Aligning with the UN SDG 2020 Goals, we have UNLEASH and Kids Educational Revolution as our media partners</p> 
-              
-            </div>
-            <Art>
-              <Img fluid={data.art_media.childImageSharp.fluid} />
-            </Art>
-            
-          </Grid>
-
-          <Grid>
-          <div>
-              <h2>Mentorship support</h2> 
-              <p>We are partnering with Chalkpiece who are supporting our hackathon with the expert mentors</p>             
-            </div>
-            
-            <Art>
-              <Img fluid={data.art_chalkpiece.childImageSharp.fluid} />
-            </Art>
-            
           </Grid>
 
           
