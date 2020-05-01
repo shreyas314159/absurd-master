@@ -151,6 +151,17 @@ const About = () => (
           }
         }
 
+        art_knowledge: file(
+          sourceInstanceName: { eq: "art" }
+          name: { eq: "knowledge" }
+        ) {
+          childImageSharp {
+            fluid(maxWidth: 760) {
+              ...GatsbyImageSharpFluid_withWebp_tracedSVG
+            }
+          }
+        }
+
 
         
 
@@ -355,7 +366,7 @@ const About = () => (
          <Grid>
           <div>
               <h2>Want to be our knowledge partners?</h2> 
-              <p>KPs provide us help with primary data on education related changes that you have witnessed in the communities that you work with. Connect us with stakeholders to understand the ground reality on the current adaptations in education.</p>
+              <p>By providing us with primary data on education related changes that you have witnessed in the communities, Help us to better connect us with stakeholders to understand the ground reality on the adaptations in education system.</p>
               <br/>
               <div className="row">
               
@@ -380,7 +391,7 @@ const About = () => (
             </div>
             
             <Art>
-              <Img fluid={data.art_chalkpiece.childImageSharp.fluid} />
+              <Img fluid={data.art_knowledge.childImageSharp.fluid} />
             </Art>
             
           </Grid>
