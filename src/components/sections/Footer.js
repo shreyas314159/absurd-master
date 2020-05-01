@@ -14,7 +14,7 @@ const SOCIAL = [
  
   {
     icon: InstagramIcon,
-    link: 'https://www.instagram.com/dhivelabs/',
+    link: 'https://www.instagram.com/reimagine_india/',
   },
   
 ];
