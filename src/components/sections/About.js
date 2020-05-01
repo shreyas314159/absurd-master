@@ -343,7 +343,7 @@ const About = () => (
           <Grid>
           <div>
               <h2>Session Mentors</h2> 
-              <p>We are partnering with Chalkpiece who are supporting our hackathon with the expert mentors</p>             
+              <p>We are partnering with Chalkpiece who will collaborate with us as session mentors</p>             
             </div>
             
             <Art>
