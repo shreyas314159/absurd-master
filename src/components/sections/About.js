@@ -41,6 +41,30 @@ const About = () => (
             }
           }
         }
+
+        art_media: file(
+          sourceInstanceName: { eq: "art" }
+          name: { eq: "media" }
+        ) {
+          childImageSharp {
+            fluid(maxWidth: 760) {
+              ...GatsbyImageSharpFluid_withWebp_tracedSVG
+            }
+          }
+        }
+
+        art_agenda: file(
+          sourceInstanceName: { eq: "art" }
+          name: { eq: "agenda" }
+        ) {
+          childImageSharp {
+            fluid(maxWidth: 760) {
+              ...GatsbyImageSharpFluid_withWebp_tracedSVG
+            }
+          }
+        }
+
+        
       }
     `}
     render={data => (
@@ -109,6 +133,40 @@ const About = () => (
               </p>
             </div>
           </Grid>
+
+          <Grid>
+            <div>
+              <h2>Agenda</h2>
+              <p>
+              From Greta Thunberg to Malala, we have seen young children's ability to transform the world. As more teachers and pedagogy experts gather to have more fruitful dialogues regarding 
+                education, it becomes even more important to get promising solutions from the other side 
+                of the spectrum, the children themselves.  Through this hackathon, we are confident
+                that simple solutions would emerge from the complex, wicked challenges which has currently engulfed the Indian education sector through the lens of children.
+              </p>
+
+              
+            </div>
+            <Art>
+              <Img fluid={data.art_agenda.childImageSharp.fluid} />
+            </Art>
+          </Grid>
+
+          <Grid inverse>
+            <Art>
+              <Img fluid={data.art_media.childImageSharp.fluid} />
+            </Art>
+            <div>
+              <h2>Media Partners</h2>
+              <p>
+              From Greta Thunberg to Malala, we have seen young children's ability to transform the world. As more teachers and pedagogy experts gather to have more fruitful dialogues regarding 
+                education, it becomes even more important to get promising solutions from the other side 
+                of the spectrum, the children themselves.  Through this hackathon, we are confident
+                that simple solutions would emerge from the complex, wicked challenges which has currently engulfed the Indian education sector through the lens of children.
+              </p>
+            </div>
+          </Grid>
+
+          
          
         </Container>
         

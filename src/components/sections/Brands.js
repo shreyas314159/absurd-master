@@ -49,7 +49,7 @@ const UsedBy = () => (
           name: { eq: "tell_story" }
         ) {
           childImageSharp {
-            fluid(maxWidth: 1200) {
+            fluid(maxWidth: 300) {
               ...GatsbyImageSharpFluid_withWebp_tracedSVG
             }
           }
@@ -60,14 +60,8 @@ const UsedBy = () => (
       <Section id="brands" accent>
         <StyledContainer>
           <div>
-            <h1>Supporting organisations</h1>
-            <LogoGrid>
-              {LOGOS.map(({ logo, link }) => (
-                <ExternalLink key={link} href={link}>
-                  {logo()}
-                </ExternalLink>
-              ))}
-            </LogoGrid>
+            
+           
           </div>
           <Art>
             <Img fluid={data.art_story.childImageSharp.fluid} />

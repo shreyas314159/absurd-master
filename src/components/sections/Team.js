@@ -11,13 +11,9 @@ const TEAM = [
     image: 'josh.png',
     
   },
+  
   {
-    name: 'MakeShift',
-    image: 'lisa.png',
-    
-  },
-  {
-    name: 'InquiLab',
+    name: 'Inqui-Lab',
     image: 'ashlyn.jpg',
     
   },

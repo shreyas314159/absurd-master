@@ -31,8 +31,9 @@ const Header = () => (
             </Art>
             <Text>
             <h4>
-                3-10th May, 2020
-              </h4>  
+                10-17th May, 2020  (17:00 to 19:00)
+              </h4> 
+            
               <h1>
                 ReImagine India
                 
