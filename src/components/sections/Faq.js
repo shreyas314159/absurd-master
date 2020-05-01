@@ -42,15 +42,15 @@ const Header = () => (
                
               <br /> 
               <p>
-              Join as an expert mentor and provide the children with on-ground insights about the challenge and help them reflect on their solutions!< br /> 
+               Join us in our combined collective towards  educational resilience! < br /> 
               </p>    
 
                
               <br />
               
               <p>
-                <StyledExternalLink href="https://docs.google.com/forms/d/e/1FAIpQLSdCRIUPhsJmXRLudLOFtSA0jEaX9UoLHX-7ix_s6fazKaTr0w/viewform">
-                  Register now as an expert mentor &nbsp;&#x2794;
+                <StyledExternalLink href="https://forms.gle/rrPMqqQzMzymroxdA">
+                  Register now as a mentor &nbsp;&#x2794;
                 </StyledExternalLink>
               </p>
               

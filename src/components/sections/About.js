@@ -352,6 +352,39 @@ const About = () => (
             
           </Grid>
 
+         <Grid>
+          <div>
+              <h2>Want to be our knowledge partners?</h2> 
+              <p>KPs provide us help with primary data on education related changes that you have witnessed in the communities that you work with. Connect us with stakeholders to understand the ground reality on the current adaptations in education.</p>
+              <br/>
+              <div className="row">
+              
+              <div className="8u 12u$(small)">
+                            <form method="post" netlify-honeypot="bot-field" data-netlify="true">
+                            <input type="hidden" name="bot-field" />
+                                
+                                    <div className="row uniform 50%">
+                                        <div className="6u 12u$(xsmall)"><input type="text" name="name" id="name" placeholder="Name" /></div>
+                                        <br/>
+                                        <div className="6u 12u$(xsmall)"><input type="email" name="email" id="email" placeholder="Email" /></div>
+                                        
+                                    </div>
+                                    <br/>
+                                    <ul className="actions">
+                                    <input type="submit" value="Send Message" />
+                                </ul>
+                                </form>
+                                
+                            </div>    
+                            </div>
+            </div>
+            
+            <Art>
+              <Img fluid={data.art_chalkpiece.childImageSharp.fluid} />
+            </Art>
+            
+          </Grid>
+
           
 
           
