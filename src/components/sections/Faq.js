@@ -48,7 +48,7 @@ const Header = () => (
               
               <p>
                 <StyledExternalLink href="https://docs.google.com/forms/d/e/1FAIpQLSdCRIUPhsJmXRLudLOFtSA0jEaX9UoLHX-7ix_s6fazKaTr0w/viewform">
-                  Register now as an expert mentor &nbsp;&#x2794;
+                  <mark>Register now as an expert mentor</mark> &nbsp;&#x2794;
                 </StyledExternalLink>
               </p>
               

@@ -51,7 +51,7 @@ const Header = () => (
               
               <p>
                 <StyledExternalLink href="https://bit.ly/ReImagineIndia">
-                  Register now as a student &nbsp;&#x2794;
+                 <mark>Register now as a student</mark>  &nbsp;&#x2794;
                 </StyledExternalLink>
               </p>
               
