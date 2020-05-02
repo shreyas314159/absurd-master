@@ -318,7 +318,7 @@ const About = () => (
               <h3><strong>Take action</strong></h3>
               
               <p>
-               Build your prototype that explains your solution to the world along with a solid execution plan
+               Build your prototype, explaining your solution to the world along with a solid execution plan
               </p>
 
               
@@ -363,7 +363,7 @@ const About = () => (
           <Grid>
           <div>
               <h2>Session Mentors</h2> 
-              <p>We are partnering with Chalkpiece who will collaborate with us as session mentors</p>             
+              <p>We are partnering with Chalkpiece who will pitch in as session mentors for the hackathon</p>             
             </div>
             
             <Art>
@@ -375,7 +375,9 @@ const About = () => (
          <Grid>
           <div>
               <h2>Want to be our knowledge partners?</h2> 
-              <p>By providing us with primary data on education related changes that you have witnessed in the communities, Help us to better connect us with stakeholders to understand the ground reality on the adaptations in education system.</p>
+              <p> If you have witnessed education related changes first-hand in your communities of intervention, we would want to engage with you as a stakeholder in this process. This would help the students to co-create better solutions towards educational resillience. </p>
+                
+                
               <br/>
               <div className="row">
               
