@@ -204,7 +204,9 @@ const About = () => (
               <p>
               From Greta Thunberg to Malala, we have seen young children's ability to transform the world. As more teachers and pedagogy experts gather to have more fruitful dialogues regarding 
                 education, it becomes even more important to get promising solutions from the other side 
-                of the spectrum, the children themselves.  </p>
+                of the spectrum. </p>  < br/>
+                
+                <p>The children themselves.  </p>
                 < br/>
                 <p> Through this hackathon, we are confident
                 that simple solutions would emerge from the complex, wicked challenges which has currently engulfed the Indian education sector through the lens of children.
@@ -218,7 +220,7 @@ const About = () => (
                 ReImagine India hackathon is an online-hackathon designed to bring children as active participants in rebuilding 
                 stronger, better India post-pandemic. </p> < br/> < br/> < br/>
                 <p><strong>The best solutions</strong> that emerge from this hackathon would be given
-                mentorship support for implementation with our partners.   </p>     
+                mentorship support for implementation with our partners.</p>     
               
 
               
@@ -248,7 +250,7 @@ const About = () => (
               <strong>Team Formation</strong>
               </h3>
               <p>
-                Join the hack and make new friends who will be fellow changemakers along with you.
+                Join the hack and join hands with fellow student changemakers who believe in the same.
               </p>
 
               
