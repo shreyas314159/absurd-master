@@ -49,7 +49,7 @@ const Footer = () => (
               <h2>ReImagine India</h2>
               
               <span>
-              
+              <h6>Artwork inspired by  Willemien Brand</h6>
                 
                 {` `}
                 
