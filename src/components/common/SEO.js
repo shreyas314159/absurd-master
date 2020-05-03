@@ -7,8 +7,8 @@ const SEO_DATA = {
   url: '',
   author: 'shreyas-prakash',
   keywords: ['gatsby', 'site', 'ReImagine', 'education', 'india'],
-  img: 'static/images/customers_pot.png',
-  
+  img: '',
+  twitterId: '@ajayns_',
   facebookId: '',
 };
 
@@ -19,7 +19,7 @@ const SEO = () => {
       <meta property="og:title" content={SEO_DATA.title} />
       <meta property="og:type" content="website" />
       <meta property="og:url" content={SEO_DATA.url} />
-      <meta property="og:image" content="[static/images/customers_pot.png]" />
+      <meta property="og:image" content={SEO_DATA.img} />
       <meta property="og:description" content={SEO_DATA.description} />
 
       <meta name="twitter:card" content="summary_large_image" />
