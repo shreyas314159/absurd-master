@@ -1,15 +1,7 @@
 const path = require('path');
 
 module.exports = {
-  siteMetadata: {
-    title: "ReImagine India",
-    titleTemplate: "%s · Children led educational hackathon",
-    description:
-      "10 to 17th May, 2020",
-    url: "https://reimagine-india.netlify.app/", // No trailing slash allowed!
-    image: "/images/customers_pot.png", // Path to your image you placed in the 'static' folder
-    
-  },
+  
   plugins: [
     `gatsby-plugin-react-helmet`,
     {
